@@ -20,6 +20,3 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: Delay@1
-  inputs:
-    delayForMinutes: '10'
